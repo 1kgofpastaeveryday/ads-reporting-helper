@@ -1,0 +1,4 @@
+:root{--fg:#1d1d1f;--bg:#fff;--muted:#555}
+@media (prefers-color-scheme:dark){:root{--fg:#eee;--bg:#161616;--muted:#aaa}}
+body{font:16px/1.7 system-ui,-apple-system,"Hiragino Sans",sans-serif;color:var(--fg);background:var(--bg);max-width:42rem;margin:0 auto;padding:2rem 1rem}
+h1{font-size:1.5rem}h2{font-size:1.1rem;margin-top:2rem}p,li{color:var(--fg)}small{color:var(--muted)}a{color:inherit}
